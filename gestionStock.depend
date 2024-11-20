@@ -1,9 +1,16 @@
 # depslib dependency file v1.0
-1732027344 source:c:\users\j\desktop\s2\langage c++\test\gestionstock\main.cpp
+1732141872 source:c:\users\j\desktop\s2\langage c++\test\gestionstock\main.cpp
 	<iostream>
 	"gestion_produit.h"
 
-1732058540 c:\users\j\desktop\s2\langage c++\test\gestionstock\gestion_produit.h
+1732142511 c:\users\j\desktop\s2\langage c++\test\gestionstock\gestion_produit.h
 	<fstream>
+	<vector>
 	<iostream>
+	<sstream>
+
+1732140343 source:c:\users\j\desktop\s2\langage c++\test\gestionstock\src\modifiarticle.cpp
+	"modifiArticle.h"
+
+1732140343 c:\users\j\desktop\s2\langage c++\test\gestionstock\include\modifiarticle.h
 

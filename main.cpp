@@ -1,6 +1,7 @@
 #include <iostream>
-#include "gestion_produit.h"
 using namespace std;
+#include "gestion_produit.h"
+
 
 
 //Project
@@ -56,6 +57,7 @@ int main()
 
                         case(2):
                             cout<<"Modification des articles d'un produit existant"<<endl;
+                            gestion.modifieArticle();
                             break;
 
                         case(3):
@@ -93,5 +95,5 @@ int main()
                 }
         }
 
-    return 0;
+        return 0;
 }

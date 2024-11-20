@@ -1,0 +1,2 @@
+Banane	Fruit	1000	20
+Fraise	Fruit	300	12

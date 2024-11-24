@@ -2,5 +2,10 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<EditorTabsLayout layout="@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=855;besth=270;minw=855;minh=270;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|" />
+	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2669" topLine="13" />
+		</Cursor>
+	</File>
+	<EditorTabsLayout layout="084f5920673e5cc10004688d00000002=*0;gestionStock:main.cpp,3;gestionStock:include\modifiArticle.h,4;gestionStock:src\modifiArticle.cpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=855;besth=321;minw=855;minh=321;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=084f5920673e5cc10004688d00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=300;besth=300;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=302|" />
 </CodeBlocks_layout_file>

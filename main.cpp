@@ -62,22 +62,27 @@ int main()
 
                         case(3):
                             cout<<"Supprimer un article du stock"<<endl;
+                            gestion.supprimerProduit();
                             break;
 
                         case(4):
                             cout<<"Rechercher des articles par nom"<<endl;
+                            gestion.rechercheProduit();
                             break;
 
                         case(5):
                             cout<<"Afficher les articles disponibles en stock avec leur quantité"<<endl;
+                            gestion.produitAffichage();
                             break;
 
                         case(6):
                             cout<<"Enregistrer les modification dans un fichier log"<<endl;
+                            gestion.enregistrerTransaction();
                             break;
 
                         case(7):
                             cout<<"Sauvegarder et charger l'etat de l'invetaire dans un fichier pour persistance"<<endl;
+                            gestion.sauvegarde();
                             break;
 
                         case(8):

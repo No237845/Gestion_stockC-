@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #include "gestion_produit.h"
+#include "gestion_produit.cpp"
 
 
 
@@ -21,7 +22,7 @@ int main()
     //Realisattion du menu
     gestion_produit gestion;
     while(true){
-                cout << "***************************************Bienvenue au système de gestion de stock**************************************" << endl;
+                cout << "***************************************Bienvenue au systeme de gestion de stock**************************************" << endl;
                 cout <<"\n";
                 cout << "           1-Ajouter un nouvel article" << endl;
                 cout << "           2-Modifier les informations d'un article existant" << endl;
@@ -62,22 +63,27 @@ int main()
 
                         case(3):
                             cout<<"Supprimer un article du stock"<<endl;
+                            gestion.supprimerProduit();
                             break;
 
                         case(4):
                             cout<<"Rechercher des articles par nom"<<endl;
+                            gestion.rechercheProduit();
                             break;
 
                         case(5):
                             cout<<"Afficher les articles disponibles en stock avec leur quantité"<<endl;
+                            gestion.produitAffichage();
                             break;
 
                         case(6):
                             cout<<"Enregistrer les modification dans un fichier log"<<endl;
+                            gestion.enregistrerTransaction();
                             break;
 
                         case(7):
                             cout<<"Sauvegarder et charger l'etat de l'invetaire dans un fichier pour persistance"<<endl;
+                            gestion.sauvegarde();
                             break;
 
                         case(8):
